@@ -11,14 +11,14 @@ activelink.classList.remove("active")
 
 this.classList.add("active")
   /* remove class 'active' from all articles */
-const activearticul = document.querySelector(".post.active")
-activearticul.classList.remove("active")
+const activearticle = document.querySelector(".post.active")
+activearticle.classList.remove("active")
   /* get 'href' attribute from the clicked link */
-const articulid = this.getAttribute("href")
+const articleid = this.getAttribute("href")
   /* find the correct article using the selector (value of 'href' attribute) */
-const newarticul = document.querySelector(articulid)
+const newarticle = document.querySelector(articleid)
   /* add class 'active' to the correct article */
-  newarticul.classList.add("active")
+  newarticle.classList.add("active")
 }
 
 const links = document.querySelectorAll('.titles a');
