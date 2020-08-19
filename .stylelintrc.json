@@ -23,8 +23,4 @@
     "scss/selector-no-redundant-nesting-selector": true,
     "scss/no-duplicate-dollar-variables": true
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 4a9b35d2d7af8792d8132cfb7620a44920836442
